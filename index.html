@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive protfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- box icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <section class="menu-bar">
+      <div class="menu-btn">
+        <i class="bx bx-menu"></i>
+      </div>
+      <div class="sidebar">
+        <div class="top">
+          <i class="bx bx-x"></i>
+        </div>
+  
+        <nav>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Vlog</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </section>
+
+
+    <section class="main">
+      <div class="home">
+        <h1>Hi am Alice Mirkwood<span class="auto-type"></span></h1>
+        <img src="https://media.istockphoto.com/id/1258148390/photo/portrait-of-beautiful-young-woman-with-blonde-hair.jpg?s=612x612&w=0&k=20&c=_sqq-2a14lHFtSvmvf3E9aFnU0CXeFqrI65b-CDBlgU=" alt="">
+      </div>
+
+      <div class="about">
+      <h1>About Me</h1>
+     <div class="about-content">
+      <img src="https://media.istockphoto.com/id/1258148390/photo/portrait-of-beautiful-young-woman-with-blonde-hair.jpg?s=612x612&w=0&k=20&c=_sqq-2a14lHFtSvmvf3E9aFnU0CXeFqrI65b-CDBlgU=" alt="">
+      <p>Hello my name is Alice Markwood. I have completed my High school from the Unversal college in Harvard University. 
+        I have done Internship on Full-stack web developer, Mobile App developer, Web App developer.</p>
+     </div>
+      </div>
+      <div class="vlog">
+        <h1>Vlog</h1>
+        <div class="Vlog-content">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/gA-FA2a6ESI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <p>It is the blog of traveling to New York</p>
+      </div>
+      <br>
+
+      <div class="projects">
+        this is projects
+      </div>
+
+      <div class="contact">
+        This is Contact
+      </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Full stack web developer", "Moblie Application developer","Web App developer"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop:true
+        })
+    </script>
+  </body>
+</html>
